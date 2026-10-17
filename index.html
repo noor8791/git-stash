@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git Stash Guide</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>git command</h1>
-    <h4>git stash</h4>
+    <div class="container">
+        <header>
+            <h1>Git Stash Guide</h1>
+            <p>Apne uncommitted changes ko temporarily save karne ka behtareen tarika!</p>
+        </header>
+
+        <section class="content">
+            <h2>Git Stash Kya Hai?</h2>
+            <p>Jab aap kisi branch par kaam kar rahe hain aur achanak kisi doosri branch par switch karna pade, bina apna adhura kaam commit kiye, tab <strong>git stash</strong> ka use hota hai. Yeh aapke changes ko ek temporary stack me save kar deta hai aur workspace ko clean kar deta hai.</p>
+
+            <h2>Important Git Stash Commands</h2>
+            <div class="command-grid">
+                <div class="card">
+                    <h3>git stash</h3>
+                    <p>Apne current changes ko temporarily save karne ke liye.</p>
+                </div>
+                <div class="card">
+                    <h3>git stash list</h3>
+                    <p>Saare saved stashes ki list dekhne ke liye.</p>
+                </div>
+                <div class="card">
+                    <h3>git stash pop</h3>
+                    <p>Latest stash ko wapas laane aur list se hatane (apply) ke liye.</p>
+                </div>
+                <div class="card">
+                    <h3>git stash apply</h3>
+                    <p>Latest stash ko apply karne ke liye lekin list me safe rakhne ke liye.</p>
+                </div>
+                <div class="card">
+                    <h3>git stash drop</h3>
+                    <p>Kisi specific stash ko delete karne ke liye.</p>
+                </div>
+                <div class="card">
+                    <h3>git stash clear</h3>
+                    <p>Saare stashes ko ek saath delete karne ke liye.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
